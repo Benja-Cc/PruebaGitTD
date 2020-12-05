@@ -1,0 +1,136 @@
+/* * {outline: 1px dotted red;} */
+div.contenedor{
+    width: 980px;
+    min-height: 1095px;
+    background: radial-gradient(circle 450px,#6f5964 -25%, #1b0b0f);
+}
+    div.contenedor div.encabezado{
+        width: 980px;
+        background-color:silver;
+    } 
+        div.contenedor div.encabezado h1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: black;
+            display: inline-block;
+            width: 570px;
+            padding-left: 20px;
+        }
+        div.contenedor div.encabezado h2{
+            display: inline-block;
+            
+        }
+div.contenedor img.portrait{
+    border: silver 5px solid;
+    display: inline-block;
+    width: 380px;
+    height: 250px;
+    margin: 15px 15px 10px 15px;
+    
+}
+div.contenedor div.about{
+    margin: 15px 10px 10px 0px;
+    display: inline-block;
+    width: 535px;
+    vertical-align: top;
+}
+    div.contenedor div.about h1{
+        font-size: 20px;
+        padding-left: 10px;
+        margin: 0px auto;
+        color: white;
+        background: linear-gradient(0.50turn, silver,gray, silver);
+    }
+    div.contenedor div.contentabout{
+        background-color: whitesmoke;
+        width: 535px;
+        height: 237px;
+    }
+    div.contenedor div.contentabout p{
+        margin: 0px auto;
+        padding: 5px 10px 5px 10px;
+    }
+    div.contenedor div.contentabout a{
+        color: black;
+        padding: 5px 10px 5px 10px;
+    }
+div.contenedor div.tag{
+    display: inline-block;
+    width: 302px;
+    height: 600px;
+    vertical-align: top;
+    background: linear-gradient(0.25turn, whitesmoke,gray);
+    margin: 20px 0px 0px 15px;
+}
+    div.contenedor div.tag h1{
+        font-size: 24px;
+        padding: 5px 0px 5px 10px;
+        margin: 0px 0px 0px 0px;
+        background: linear-gradient(0.50turn, silver,gray, silver);
+    }
+    div.contenedor div.tag img{
+        width: 302px;
+        height: 150px;
+    }
+    div.contenedor div.tag p{
+        padding: 0px 10px 0px 10px;
+        margin-top: 10px;
+        text-align: justify;
+        height: 162px;
+    }
+    div.contenedor div.tag h2{
+        padding: 5px 0px 5px 10px;
+        margin: 15px 0px 5px 0px;
+        font-size: 21px;
+        background: linear-gradient(0.50turn, silver,gray, silver);
+    }
+    div.contenedor div.tag ul{
+        padding: 0px 0px 0px 15px;
+        margin: 0px;
+    }
+    div.contenedor div.tag ul li{
+        display: inline-block;
+        padding: 5px;
+    }
+    div.contenedor div.tag ul li img{
+        width: 40px;
+        height: 40px;
+    }
+    div.contenedor div.tag a{
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        background-color: green;
+        border: solid 1px black ;
+        border-radius: 10px;
+        margin: 0px 0px 0px 100px;
+        padding: 5px;
+        text-align: center;
+        display: inline-block;
+    }
+div.contenedor div.pie_pag{
+    font-size: 20px;
+    background: linear-gradient(0.25turn, whitesmoke,gray);
+}
+    div.contenedor div.pie_pag ul.table_data {
+        margin-left: 315px;
+        padding-top: 10px;
+    }
+        div.contenedor div.pie_pag ul.table_data li{
+            display: inline-block;
+            padding: 0px 5px 0px 5px; 
+        }
+            div.contenedor div.pie_pag ul.table_data li.email{
+                border-right: solid 1px black;
+            }
+    div.contenedor div.pie_pag ul.table_socialred{
+        margin-left: 290px;
+        padding: 0px 0px 10px 0px;
+    }
+        div.contenedor div.pie_pag ul.table_socialred li{
+            display: inline-block;
+        }
+            div.contenedor div.pie_pag ul.table_socialred li img{
+                width: 25px;
+                height: 25px;
+                border-radius: 15px;
+            }
